@@ -18,7 +18,7 @@ class CephClient < Formula
   depends_on "leveldb" => :build
   depends_on "nss"
   depends_on "pkg-config" => :build
-  depends_on "python2"
+  ##depends_on "python2"
   depends_on "sphinx-doc" => :build
   depends_on "yasm"
 
